@@ -10,4 +10,12 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+First make sure docker is installed and running.
+
+1. In the terminal go to the folder where the "docker-compose.yml" file is located and execute the below line.
+
+``docker-compose up``
+
+(It will take a file to install all dependencies and setup)
+
+2. After It is setup you can check if it is running by going to the url: http://localhost:3000/api/ping
